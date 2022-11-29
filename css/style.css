@@ -25,9 +25,13 @@ h2 {
 
 p {
     font-family: 'montauk', sans-serif;
-    src: url("../assets/Montauk-Regular/Montauk-Regular.otf");
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
     color: #5F002B;
     font-size: 1.25rem;
+}
+
+.navbar {
+    padding-bottom: 2.563rem;
 }
 
 .NavBarTextFormat {
@@ -41,12 +45,14 @@ p {
     display: flex;
 }
 
-footer {
+.Header {
+    text-align: center;
+    background-color: white;
+}
+
+.footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-
 }
 
 .CompanyLogo {
@@ -62,6 +68,7 @@ footer {
 .FooterRight {
     display: flex;
     justify-content: right;
+    padding-right: 8.75rem;
 }
 
 /* Same End */
