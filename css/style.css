@@ -7,27 +7,33 @@
 
 body {
     background-image: url("../assets/RestaurantMockupFiles/assets/bgtexture.jpg");
-    margin-left: 8.75rem;
-    margin-right: 8.75rem;
+}
+
+.BodyMargins {
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 h1 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 3.125rem;
+    font-size: 2rem;
 }
 
 h2 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 1.875rem;
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
 }
 
 p {
-    font-family: 'montauk', sans-serif;
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
     color: #5F002B;
-    font-size: 1.25rem;
+    font-size: 0.755rem;
 }
 
 .navbar {
@@ -48,11 +54,11 @@ p {
 .Header {
     text-align: center;
     background-color: white;
+    line-height: 3rem;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
 }
 
 .CompanyLogo {
@@ -68,7 +74,65 @@ p {
 .FooterRight {
     display: flex;
     justify-content: right;
-    padding-right: 8.75rem;
 }
 
 /* Same End */
+
+/* About Page Start */
+
+#AboutMain {
+    padding-bottom: 3.906rem;
+}
+
+#AboutMainImg {
+    width: 100%;
+}
+
+#AboutMainImgCol {
+    padding-left: 0;
+}
+
+#AboutMainTextBox {
+    background-color: white;
+}
+
+#AboutMainTitle {
+    padding-top: 1.875rem;
+    padding-left: 1rem;
+}
+
+#AboutMainText {
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+}
+
+#OurTeamTitle {
+    padding-bottom: 2rem;
+}
+
+.ChefCards {
+    border-radius: 0;
+}
+
+.ChefCardsTop {
+    padding-bottom: 1rem;
+}
+
+.ChefCardsBottom {
+    padding-bottom: 6rem;
+}
+
+.ChefCardLeft {
+    padding-left: 0;
+}
+
+.ChefCardRight {
+    padding-right: 0;
+}
+
+.card-img-top {
+    height: 30rem;
+    object-fit: cover;
+}
+
+/* About Page End */
