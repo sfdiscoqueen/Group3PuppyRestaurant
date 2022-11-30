@@ -7,6 +7,10 @@
 
 body {
     background-image: url("../assets/RestaurantMockupFiles/assets/bgtexture.jpg");
+
+}
+
+.bodyMargins {
     margin-left: 8.75rem;
     margin-right: 8.75rem;
 }
@@ -23,11 +27,14 @@ h2 {
     font-size: 1.875rem;
 }
 
-p {
+@font-face {
     font-family: 'Montauk-Regular', sans-serif;
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf") format("opentype");
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
+}
+
+p {
     color: #5F002B;
-    font-size: 1.25rem;
+    font-size: 0.7rem;
 }
 
 .NavBarTextFormat {
