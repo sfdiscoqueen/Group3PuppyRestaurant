@@ -20,7 +20,21 @@
 }
 .background {
     background-color: white;
+    margin-right: 12px;
 }
-.CatBottom {
+.CatLeft {
     width: 100%;
+}
+.CatCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.CatRight {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.antiPad {
+    padding-right: 0px;
 }
