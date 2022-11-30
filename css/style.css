@@ -59,6 +59,7 @@ p {
 
 .footer {
     margin-top: auto;
+    padding: 0;
 }
 
 .CompanyLogo {
@@ -106,6 +107,10 @@ p {
     padding-right: 2.5rem;
 }
 
+.HeaderCol {
+    padding: 0;
+}
+
 #OurTeamTitle {
     padding-bottom: 2rem;
 }
@@ -130,9 +135,58 @@ p {
     padding-right: 0;
 }
 
-.card-img-top {
-    height: 30rem;
+.ChefCardImg {
+    height: 26rem;
     object-fit: cover;
 }
 
 /* About Page End */
+
+/* Menu Page Start */
+
+.MenuCardsTop {
+    padding-bottom: 1rem;
+}
+
+.MenuCardsBottom {
+    padding-bottom: 6rem;
+}
+
+.MenuCardLeft {
+padding-left: 0;
+}
+
+.MenuCardRight {
+padding-right: 0;
+}
+
+.MenuCards {
+    border-radius: 0;
+}
+
+.MenuCardImg {
+    border-radius: 0;
+}
+
+.MenuCardTopRow {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
+}
+
+.MenuCardPrice {
+    text-align: end;
+}
+
+.MenuCardTextSpaceing {
+    padding-bottom: 2rem;
+}
+
+.MenuCardBottomRow {
+    border-bottom: 0.1rem solid #5F002B;
+}
+
+.MenuCardText {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Menu Page End */
