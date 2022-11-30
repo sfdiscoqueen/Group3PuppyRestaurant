@@ -1,0 +1,26 @@
+.Img {
+    /* width: 16.25rem; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    border: 0.5rem solid white;
+    margin-bottom: 1rem;
+}
+.CatMain {
+    width: 100%;
+    height: 100%;
+}
+.Header2 {
+    font-size: 25px;
+}
+.catMainText {
+    font-size: 11px ;
+}
+.background {
+    background-color: white;
+}
+.CatBottom {
+    width: 100%;
+}

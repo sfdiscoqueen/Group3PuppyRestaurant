@@ -7,8 +7,8 @@
 
 body {
     background-image: url("../assets/RestaurantMockupFiles/assets/bgtexture.jpg");
-    margin-left: 8.75rem;
-    margin-right: 8.75rem;
+    /* margin-left: 8.75rem;
+    margin-right: 8.75rem; */
 }
 
 h1 {
@@ -51,7 +51,7 @@ p {
 }
 
 .footer {
-    position: absolute;
+    align-content: flex-end;
     bottom: 0;
 }
 
@@ -72,3 +72,11 @@ p {
 }
 
 /* Same End */
+@font-face {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
+}
+p {
+    color: #5F002B;
+    font-size: 0.755rem;
+}
