@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/jacobStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
@@ -20,7 +21,7 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img class="mx-1" src="../assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
+        <img class="NavBarImg mx-1" src="../assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,10 +51,10 @@
   <!-- Top Row Start -->
   <div id="AboutMain" class="container">
     <div class="row">
-      <div id="AboutMainImgCol" class="col-5">
+      <div id="AboutMainImgCol" class="col-5 d-none d-lg-block">
         <img id="AboutMainImg" src="../assets/RestaurantMockupFiles/assets/AboutMain.jpg" alt="About Main">
       </div>
-      <div id="AboutMainTextBox" class="col-7">
+      <div id="AboutMainTextBox" class="col-md-12 col-lg-7">
         <h1 id="AboutMainTitle">The Story Behind the Grill</h1>
         <p id="AboutMainText">Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Mattis molestie a
           iaculis at erat
@@ -97,7 +98,7 @@
   <!-- Dog Chef Cards Start -->
   <div class="container ChefCardsTop">
     <div class="row">
-      <div class="col-4 ChefCardLeft">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardLeft  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/doxie3.jpg"
             class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
@@ -110,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-sm-12 col-md-4 ChefCardWidth  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/jackrussel.jpg" class="card-img-top ChefCards ChefCardImg"
             alt="...">
@@ -123,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4 ChefCardRight">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardRight  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/doxie1.jpg"
             class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
@@ -141,7 +142,7 @@
 
   <div class="container ChefCardsBottom">
     <div class="row">
-      <div class="col-4 ChefCardLeft">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardLeft  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/novascotia.jpg"
             class="card-img-top ChefCardLeft ChefCards ChefCardImg" alt="...">
@@ -154,7 +155,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-sm-12 col-md-4 ChefCardWidth  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/doxie2.jpg" class="card-img-top ChefCards ChefCardImg"
             alt="...">
@@ -167,7 +168,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4 ChefCardRight">
+      <div class="col-sm-12 col-md-4 ChefCardWidth ChefCardRight  d-flex align-items-stretch">
         <div class="card ChefCards" style="width: 100%;">
           <img src="../assets/RestaurantMockupFiles/assets/staffie.jpg"
             class="card-img-top ChefCardRight ChefCards ChefCardImg" alt="...">
@@ -188,7 +189,7 @@
   <div class="footer container">
     <div class="row">
       <div class="col-6 FooterLeft">
-        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
+        <p class="footerText">1357 Mutt Street, Rottweiler CA. 12345</p>
       </div>
       <div class="col-6 FooterRight">
         <img class="CompanyLogo" src="../assets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="CompanyLogo">
@@ -196,10 +197,10 @@
     </div>
     <div class="row">
       <div class="col-6 FooterLeft">
-        <p>Phone: 123-456-7890</p>
+        <p class="footerText">Phone: 123-456-7890</p>
       </div>
       <div class="col-6 FooterRight">
-        <p>Copyright © Muzzles Restaurant</p>
+        <p class="footerText">Copyright © Muzzles Restaurant</p>
       </div>
     </div>
   </div>
