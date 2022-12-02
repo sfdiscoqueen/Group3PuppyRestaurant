@@ -22,6 +22,10 @@
     background-color: white;
     margin-right: 12px;
 }
+.background2 {
+    background-color: white;
+
+}
 .CatLeft {
     width: 100%;
 }
@@ -37,4 +41,12 @@
 }
 .antiPad {
     padding-right: 0px;
+}
+.catTextLeft {
+    margin-left: 12px;
+    padding-right: 5px;
+    margin-right: 0px;
+}
+.catTextRight {
+    padding-right: 12px;
 }
