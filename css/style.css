@@ -7,20 +7,24 @@
 
 body {
     background-image: url("../assets/RestaurantMockupFiles/assets/bgtexture.jpg");
-    /* margin-left: 8.75rem;
-    margin-right: 8.75rem; */
+
 }
 
 h1 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 3.125rem;
+    font-size: 2rem;
 }
 
 h2 {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
-    font-size: 1.875rem;
+    font-size: 1.2rem;
+}
+
+@font-face {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
 }
 
 @font-face {
@@ -30,7 +34,7 @@ h2 {
 
 p {
     color: #5F002B;
-    font-size: 1.25rem;
+    font-size: 0.755rem;
 }
 
 .navbar {
@@ -51,11 +55,12 @@ p {
 .Header {
     text-align: center;
     background-color: white;
+    line-height: 3rem;
 }
 
 .footer {
-    align-content: flex-end;
-    bottom: 0;
+    margin-top: auto;
+    padding: 0;
 }
 
 .CompanyLogo {
@@ -71,15 +76,12 @@ p {
 .FooterRight {
     display: flex;
     justify-content: right;
-    padding-right: 8.75rem;
 }
 
 /* Same End */
-@font-face {
-    font-family: ‘Montauk-Regular’;
-    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
-}
+
 p {
     color: #5F002B;
     font-size: 0.755rem;
 }
+
