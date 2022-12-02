@@ -1,0 +1,44 @@
+#heroImg {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.heroImgContainer {
+    margin-bottom: 6.25rem;
+}
+
+
+#homeImg {
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.homeSingle {
+    padding: 0;
+    width: 100%
+}
+
+.whiteBox{
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+
+.middleSection{
+    margin: 2rem;
+    display: flex;
+
+}
+
+#MuzzlesSandwich {
+    width: 100%;
+    height: auto;
+}
+
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+}

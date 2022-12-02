@@ -32,8 +32,14 @@ h2 {
     src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");    
 }
 
+@font-face {
+    font-family: 'Montauk-Regular', sans-serif;
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
+}
+
 p {
     color: #5F002B;
+
     font-size: 0.755rem;
 }
 
