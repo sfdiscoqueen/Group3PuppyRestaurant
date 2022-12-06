@@ -26,6 +26,14 @@
     background-color: white;
 
 }
+.background3 {
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .CatLeft {
     width: 100%;
 }
