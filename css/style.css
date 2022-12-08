@@ -23,16 +23,6 @@ h2 {
 }
 
 @font-face {
-    font-family: ‘Montauk-Regular’;
-    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
-}
-
-@font-face {
-    font-family: 'Montauk-Regular';
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");    
-}
-
-@font-face {
     font-family: 'Montauk-Regular', sans-serif;
     src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
 }
@@ -56,6 +46,10 @@ p {
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
     display: flex;
+}
+
+.NavBarPadding {
+    padding-right: 0;
 }
 
 .Header {
