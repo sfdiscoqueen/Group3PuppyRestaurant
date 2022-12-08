@@ -115,6 +115,8 @@ padding-right: 0;
 
 .MenuCardBottomRow {
     border-bottom: 0.1rem solid #5F002B;
+    margin-left: 1rem;
+    padding-right: 1rem;
 }
 
 .MenuCardText {
