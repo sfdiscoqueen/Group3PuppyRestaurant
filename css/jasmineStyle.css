@@ -1,0 +1,52 @@
+#heroImg {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.heroImgContainer {
+    margin-bottom: 6.25rem;
+}
+
+
+#homeImg {
+
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.homeSingle {
+    padding: 0;
+    width: 100%
+}
+
+.whiteBox{
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    /* width: 100%; */
+    /* z-index: 100; */
+}
+
+.middleSection{
+    /* margin: 2rem; */
+    display: flex;
+
+}
+
+#MuzzleSandwichPic {
+    padding-left: 0;
+}
+
+#MuzzlesSandwich {
+    width: 100%;
+    height: 90%;
+}
+
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,233 @@
+/* ReUseables Start */
+
+.BodyMargins {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+/* ReUseables End */
+
+/* About Page Start */
+
+#AboutMain {
+    padding-bottom: 3.906rem;
+}
+
+#AboutMainImg {
+    width: 100%;
+}
+
+#AboutMainImgCol {
+    padding-left: 0;
+}
+
+#AboutMainTextBox {
+    background-color: white;
+}
+
+#AboutMainTitle {
+    padding-top: 1.875rem;
+    padding-left: 1rem;
+}
+
+#AboutMainText {
+    padding-left: 1rem;
+    padding-right: 2.5rem;
+}
+
+.HeaderCol {
+    padding: 0;
+}
+
+#OurTeamTitle {
+    padding-bottom: 2rem;
+}
+
+.ChefCards {
+    border-radius: 0;
+}
+
+.ChefCardsTop {
+    padding-bottom: 1rem;
+}
+
+.ChefCardsBottom {
+    padding-bottom: 6rem;
+}
+
+.ChefCardLeft {
+    padding-left: 0;
+}
+
+.ChefCardRight {
+    padding-right: 0;
+}
+
+.ChefCardImg {
+    height: 26rem;
+    object-fit: cover;
+}
+
+/* About Page End */
+
+/* Menu Page Start */
+
+#HeaderContainer {
+    padding-bottom: 2rem;
+}
+
+.MenuCardsTop {
+    padding-bottom: 1rem;
+}
+
+.MenuCardsBottom {
+    padding-bottom: 6rem;
+}
+
+.MenuCardLeft {
+padding-left: 0;
+}
+
+.MenuCardRight {
+padding-right: 0;
+}
+
+.MenuCards {
+    border-radius: 0;
+}
+
+.MenuCardImg {
+    border-radius: 0;
+}
+
+.MenuCardTopRow {
+    font-family: ‘Montauk-Regular’;
+    src: url(“../assets/fonts/Montauk-Regular/Montauk-Regular.otf”);
+}
+
+.MenuCardPrice {
+    text-align: end;
+}
+
+.MenuCardTextSpaceing {
+    padding-bottom: 2rem;
+}
+
+.MenuCardBottomRow {
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #5F002B;
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.MenuCardText {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Menu Page End */
+
+/* Mobile */
+
+.MenuMobileSections {
+    padding-bottom: 3rem;
+}
+
+.MenuMobileBG {
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.MobileMenuTitle {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.MobileMenuText {
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+    #AboutMainText {
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 1330px) {
+    #AboutMainText {
+        font-size: 0.6rem;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    #AboutMainText {
+        font-size: 0.55rem;
+    }
+    
+}
+
+@media screen and (max-width: 1140px) {
+    #AboutMainText {
+        font-size: 0.525rem;
+    }
+    
+}
+
+@media screen and (max-width: 1106px) {
+    #AboutMainText {
+        font-size: 0.55rem;
+    }
+    
+}
+
+@media screen and (max-width: 1106px) {
+
+    .BodyMargins {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    
+}
+
+@media screen and (max-width: 452px) {
+
+    #AboutMainTitle {
+        font-size: 1.75rem;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .ChefCardImg {
+        height: 15rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .ChefCardWidth {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ChefCardsTop {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .footerText {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 354px) {
+.NavBarImg {
+    width: 75%;
+}
+}

@@ -4,10 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Puppy Restaurant</title>
+  <title>Muzzles Puppy Restaurant</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/jasmineStyle.css">
+  <link rel="stylesheet" href="./css/jacobStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
@@ -17,10 +19,12 @@
 <body>
 
   <!-- NavBar Start -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img class="mx-1" src="./assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
+
+  <nav class="navbar navbar-expand-lg BodyMargins">
+
+    <div class="container NavBarPadding">
+      <a class="navbar-brand" href="./index.html">
+        <img class="NavBarImg mx-3" src="./assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,11 +39,13 @@
             <a class="nav-link NavBarText mx-3" href="./pages/menu.html">Menu</a>
           </li>
           <li class="nav-item">
+          
             <a class="nav-link NavBarText mx-3" href="./pages/catering.html">Catering</a>
+
           </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./pages/photos.html">Photo</a>
+            <a class="nav-link NavBarText ms-3" href="./pages/photos.html">Photo</a>
           </li>
         </ul>
       </div>
@@ -47,25 +53,69 @@
   </nav>
   <!-- NavBar End -->
 
-  <!-- Footer Start -->
-  <div class="footer container">
-    <div class="row">
-      <div class="col-6 FooterLeft">
-        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-      </div>
-      <div class="col-6 FooterRight">
-        <img class="CompanyLogo" src="./assets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="CompanyLogo">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6 FooterLeft">
-        <p>Phone: 123-456-7890</p>
-      </div>
-      <div class="col-6 FooterRight">
-        <p>Copyright © Muzzles Restaurant</p>
+  <!-- Hero Start -->
+  <div class="heroImgContainer">
+    <img id="heroImg" src="./assets/RestaurantMockupFiles/assets/homeHero.jpg" alt="hero image" width="100%"
+      height="100%">
+  </div>
+  <!-- Hero End -->
+
+  <!-- Body Start -->
+  <div class="container">
+
+    <div class="container">
+      <div class="row">
+        <!-- left content -->
+        <div id="MuzzleSandwichPic" class="col-12 col-lg-5">
+          <img id="MuzzlesSandwiches" src="./assets/RestaurantMockupFiles/assets/homeSingle.jpg" alt="pupper panini"
+            width="100%" height="90%">
+        </div>
+        <!-- right content -->
+  
+          <div class="col-12 col-lg-7">
+            <div class="row">
+              <div class="col-12 whiteBox">
+                <h1>Muzzles Sandwiches & Grill</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, eaque? Non eos itaque minimam
+                  adipisci, consequuntur qui totam nesciunt quod aperiam, ab, natus deserunt cumque est? Hic dolore
+                  reprehenderit excepturi.</p>
+              </div>
+            </div>
+  
+  
+            <div class="row">
+              <div class="col-12 px-0">
+                <img src="./assets/RestaurantMockupFiles/assets/HomeImage.jpg" alt="panini puppy sliders" id="homeImg">
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   </div>
+  <!-- Body End -->
+
+  <!-- Footer Start -->
+  <div class="container">
+  <div class="footer container">
+    <div class="row">
+      <div class="col-6 FooterLeft">
+        <p class="footerText">1357 Mutt Street, Rottweiler CA. 12345</p>
+      </div>
+      <div class="col-6 FooterRight">
+        <img class="CompanyLogo" src="../assets/RestaurantMockupFiles/assets/CompanyLogo.png" alt="CompanyLogo">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 FooterLeft">
+        <p class="footerText">Phone: 123-456-7890</p>
+      </div>
+      <div class="col-6 FooterRight">
+        <p class="footerText">Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Footer End -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
