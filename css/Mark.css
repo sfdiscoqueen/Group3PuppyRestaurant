@@ -33,11 +33,12 @@
 
 }
 .background3 {
-    background-color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;  
     margin-right: auto;
     margin-left: auto;
+}
+
+.photoBorder {
+    border: 0.5rem solid white;
 }
 
 .CatLeft {

@@ -9,21 +9,22 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/jasmineStyle.css">
+  <link rel="stylesheet" href="./css/jacobStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
 
 </head>
 
-<body bodyMargins>
+<body>
 
   <!-- NavBar Start -->
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg BodyMargins">
 
-    <div class="container-fluid">
+    <div class="container NavBarPadding">
       <a class="navbar-brand" href="./index.html">
-        <img class="NavBarImg mx-1" src="./assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
+        <img class="NavBarImg mx-3" src="./assets/RestaurantMockupFiles/assets/MuzzlesLogo.png" alt="MuzzelsLogo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +45,7 @@
           </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link NavBarText mx-3" href="./pages/photos.html">Photo</a>
+            <a class="nav-link NavBarText ms-3" href="./pages/photos.html">Photo</a>
           </li>
         </ul>
       </div>
@@ -65,7 +66,7 @@
     <div class="container">
       <div class="row">
         <!-- left content -->
-        <div class="col-12 col-lg-5">
+        <div id="MuzzleSandwichPic" class="col-12 col-lg-5">
           <img id="MuzzlesSandwiches" src="./assets/RestaurantMockupFiles/assets/homeSingle.jpg" alt="pupper panini"
             width="100%" height="90%">
         </div>
@@ -94,6 +95,7 @@
   <!-- Body End -->
 
   <!-- Footer Start -->
+  <div class="container">
   <div class="footer container">
     <div class="row">
       <div class="col-6 FooterLeft">
@@ -112,6 +114,8 @@
       </div>
     </div>
   </div>
+</div>
+
   <!-- Footer End -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
