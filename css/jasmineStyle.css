@@ -22,6 +22,10 @@
     width: 100%
 }
 
+#PupperPanini {
+    padding-left: 0;
+}
+
 .whiteBox{
     background-color: white;
     padding-top: 1rem;
