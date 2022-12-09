@@ -31,6 +31,7 @@
 }
 
 #AboutMainText {
+    line-height: 1rem;
     padding-left: 1rem;
     padding-right: 2.5rem;
 }
@@ -102,6 +103,7 @@ padding-right: 0;
 
 .MenuCardTopRow {
     font-family: Montauk-Light;
+    font-size: 1.5rem;
 }
 
 .MenuCardPrice {
