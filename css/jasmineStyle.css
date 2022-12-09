@@ -25,16 +25,16 @@
 .whiteBox{
     background-color: white;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.whiteBoxText{
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 .middleSection{
     display: flex;
-}
-
-#MuzzlesSandwich {
-    width: 100%;
-    height: 90%;
 }
 
 .footerContainer {
