@@ -23,14 +23,14 @@ h2 {
 }
 
 @font-face {
-    src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
-    font-family: Montauk-Regular;
+    src: url("../assets/fonts/Montauk-Regular/Montauk-Light.otf");
+    font-family: Montauk-Light;
 }
 
 p {
     color: #5F002B;
     font-size: 0.9rem;
-    font-family: Montauk-Regular;
+    font-family: Montauk-Light;
 }
 
 .navbar {
