@@ -23,14 +23,14 @@ h2 {
 }
 
 @font-face {
-    font-family: 'Montauk-Regular', sans-serif;
     src: url("../assets/fonts/Montauk-Regular/Montauk-Regular.otf");
+    font-family: Montauk-Regular;
 }
 
 p {
     color: #5F002B;
-
     font-size: 0.755rem;
+    font-family: Montauk-Regular;
 }
 
 .navbar {
@@ -79,9 +79,3 @@ p {
 }
 
 /* Same End */
-
-p {
-    color: #5F002B;
-    font-size: 0.755rem;
-}
-
